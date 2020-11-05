@@ -1,0 +1,28 @@
+################################################################
+# This is a predictor for protein-DNA binding residues prediction (CNNPred) based on convolution neural-network.
+# The final prediction result by applying bagging strategy to multiple trained model.
+################################################################
+
+1, Firstly,you should Configure config.properties by modify the relevant path of tools or database
+
+2, how to run 'CNNPred.jar' in Linux system or windows system?
+
+	java -jar CNNPred.jar [input]Protein_name(String)  [input]Protein_sequence(String)	[input]Folder path to save the process files  [input]{PDNA-543,PDNA-335}(String)
+	
+	Note: 
+	
+	a.you should input four parameters: Protein_name, Protein_sequence, Folder path to save the process files and result file, training set;
+	
+	  the forth parameter is a fixed parameters : "PDNA-543" or "PDNA-335"; "PDNA-543" represents the models constrcuted on dataset PDNA-543,
+	  
+	  "PDNA-335" represents the models constrcuted on dataset PDNA-335
+	 
+		
+	b.the path of prediction result: "Folder path to save the relevant files"/CNNPred_Prod.
+
+3,	other descriptions 
+
+	/CNNPred/PDNA_543			# a folder is used to store models trained on dataset PDNA-543 
+	/CNNPred/PDNA_335			# a folder is used to store models trained on dataset PDNA-335 
+	
+
