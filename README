@@ -35,5 +35,4 @@
 5. run a example 
 
    java -jar CNNPred.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543 
-	
-6.re
+   
