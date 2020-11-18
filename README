@@ -1,6 +1,6 @@
 1. what is the CNNPred?
 
-	A predictor for protein-DNA binding residues prediction based on convolutional neural network.
+	A predictor for protein-DNA binding residues prediction via bagging strategy and sequenced-based tensor feafture.
 
 2. Pre-requisite:
 
