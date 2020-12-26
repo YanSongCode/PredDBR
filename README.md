@@ -1,6 +1,6 @@
 # PredDBR:
 
-	A predictor for protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature feature.
+	 Protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature feature.
 	
 ## Pre-requisite:
    - python, java, pytorch
@@ -9,18 +9,20 @@
    - NCBI nr database (https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
    - uniclust30 database (http://wwwuser.gwdg.de/~compbiol/uniclust/)
    
-## installation: 
+## installation
 
 * Download all files and folders
 ~~~
 	1. unzip  PredDBR.zip -d /PredDBR
+	
 	2. cd PredDBR
+	
 	3. Configure config.properties by modify the relevant path of tools or database
 ~~~	
 
-## Run:
+## Run
 
-	java -jar PredDBR.jar 
+	java -jar PredDBR.jar [input] [input] [input] [input]
 	
 	[input]Protein_name(String)  
 	[input]Protein_sequence(String)	
@@ -36,7 +38,7 @@
 	"PDNA-335" represents the models constrcuted on dataset PDNA-335
 	 
 		
-	b.the path of prediction result: "Folder path to save the relevant files"/PredDBR_Prod".
+	b.the path of prediction result: "{Folder path to save the process files and result file}/PredDBR_Prod".
 	
 	c. give an example:
 		java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543 
