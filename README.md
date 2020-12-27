@@ -13,7 +13,7 @@
 
 * Download all files and folders
 ~~~
-	1. unzip  PredDBR.zip -d /PredDBR
+	1. unzip  -n PredDBR.zip -d /PredDBR
 	
 	2. cd PredDBR
 	
