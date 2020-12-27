@@ -1,8 +1,8 @@
-# PredDBR:
+# PredDBR
 
 	 Protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature feature.
 	
-## Pre-requisite:
+## Pre-requisite
    - python, java, pytorch
    - SANN tool (https://github.com/newtonjoo/sann)
    - hhblits tool (https://toolkit.tuebingen.mpg.de/#/hhblits)
@@ -13,7 +13,7 @@
 
 * Download all files and folders
 ~~~
-	1. unzip  PredDBR.zip -d /PredDBR
+	1. unzip  -n PredDBR.zip -d /PredDBR
 	
 	2. cd PredDBR
 	
