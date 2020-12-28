@@ -10,7 +10,7 @@
    
 ## installation:
 
-* Download PredDBR package
+*Download PredDBR package
 ~~~
 	1. unzip  -n PredDBR.zip -d /PredDBR
 	2. cd PredDBR
@@ -19,26 +19,25 @@
 
 ## Run:
 
-	java -jar PredDBR.jar [input] [input] [input] [input]
+java -jar PredDBR.jar [input] [input] [input] [input]
 	
-	[input]Protein_name(String)  
-	[input]Protein_sequence(String)	
-	[input]Folder path to save the process files and result file
-	[input]{PDNA-543,PDNA-335}(String)
+[input]Protein_name(String)  
+[input]Protein_sequence(String)	
+[input]Folder path to save the process files and result file
+[input]{PDNA-543,PDNA-335}(String)
+
+Note: 
 	
-	Note: 
+a.you should input four parameters: Protein_name, Protein_sequence, Folder path to save the process files and result file, training set;
 	
-	a.you should input four parameters: Protein_name, Protein_sequence, Folder path to save the process files and result file, training set;
-	
-	the forth parameter is a fixed parameters : "PDNA-543" or "PDNA-335"; "PDNA-543" represents the models constrcuted on dataset PDNA-543,
+the forth parameter is a fixed parameters : "PDNA-543" or "PDNA-335"; "PDNA-543" represents the models constrcuted on dataset PDNA-543,
 	  
-	"PDNA-335" represents the models constrcuted on dataset PDNA-335
+"PDNA-335" represents the models constrcuted on dataset PDNA-335
 	 
-		
-	b.the path of prediction result: "{Folder path to save the process files and result file}/PredDBR_Prod".
-	
-	c. give an example:
-		java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
+b.the path of prediction result: "{Folder path to save the process files and result file}/PredDBR_Prod".
+
+c. give an example:
+	java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
 ## Update History:
 
 - First release 2020-12-28
