@@ -9,13 +9,13 @@
    - NCBI nr database (https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
    - Uniclust30 database (http://wwwuser.gwdg.de/~compbiol/uniclust/)
    
-## installation
+## installation:
 
-* Download all files and folders
+* Download PredDBR package
 ~~~
 	1. unzip  -n PredDBR.zip -d /PredDBR
 	2. cd PredDBR
-	3. Configure config.properties by modify the relevant path of tools or database
+	3. edit config.properties by modify the relevant path of tools or database
 ~~~	
 
 ## Run
@@ -42,4 +42,4 @@
 		java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543 
 
 ## References 
-[1] Jun Hu, Yan-Song Bai, Lin-Lin Zheng, Ning-Xin Jia, Dong-Jun Yu, Gui-Jun Zhang. Protein-DNA Binding Residue Prediction via Bagging Strategy and Sequence-based Cube-Format Feature. sumitted
+[1] Jun Hu, Yan-Song Bai, Lin-Lin Zheng, Ning-Xin Jia, Dong-Jun Yu, Gui-Jun Zhang. Protein-DNA Binding Residue Prediction via Bagging Strategy and Sequence-based Cube-Format Feature. submitted
