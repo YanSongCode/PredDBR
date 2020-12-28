@@ -1,22 +1,20 @@
 # PredDBR:
 
-	 Protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature feature.
+     Protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature feature.
 	
 ## Pre-requisite:
-   - python, java, pytorch
+   - Python, Java, Pytorch
    - SANN tool (https://github.com/newtonjoo/sann)
-   - hhblits tool (https://toolkit.tuebingen.mpg.de/#/hhblits)
+   - HHblits tool (https://toolkit.tuebingen.mpg.de/#/hhblits)
    - NCBI nr database (https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
-   - uniclust30 database (http://wwwuser.gwdg.de/~compbiol/uniclust/)
+   - Uniclust30 database (http://wwwuser.gwdg.de/~compbiol/uniclust/)
    
 ## installation
 
 * Download all files and folders
 ~~~
 	1. unzip  -n PredDBR.zip -d /PredDBR
-	
 	2. cd PredDBR
-	
 	3. Configure config.properties by modify the relevant path of tools or database
 ~~~	
 
