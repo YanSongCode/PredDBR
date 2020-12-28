@@ -12,9 +12,9 @@
 
 *Download PredDBR package
 ~~~
-	1. unzip  -n PredDBR.zip -d /PredDBR
-	2. cd PredDBR
-	3. edit config.properties by modify the relevant path of tools or database
+  1. unzip  -n PredDBR.zip -d /PredDBR
+  2. cd PredDBR
+  3. edit config.properties by modify the relevant path of tools or database
 ~~~	
 
 ## Run:
@@ -28,15 +28,15 @@
 
 	Note: 
 	
-   	a. you should input four parameters: Protein_name, Protein_sequence, Folder path to save the process files and result file, training set;
+       a. you should input four parameters: Protein_name, Protein_sequence, Folder path to save the process files and result file, training set;
 	
      	   the forth parameter is a fixed parameters : "PDNA-543" or "PDNA-335"; "PDNA-543" represents the models constrcuted on dataset PDNA-543,
 	  
      	   "PDNA-335" represents the models constrcuted on dataset PDNA-335
 	 
-        b. the path of prediction result: "{Folder path to save the process files and result file}/PredDBR_Prod".
+       b. the path of prediction result: "{Folder path to save the process files and result file}/PredDBR_Prod".
 
-        c. give an example: java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
+       c. give an example: java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
    
 ## Update History:
 
