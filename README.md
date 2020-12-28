@@ -1,6 +1,5 @@
 # PredDBR:
-
-     Protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature feature.
+ Protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature feature.
 	
 ## Pre-requisite:
    - Python, Java, Pytorch
@@ -18,7 +17,7 @@
 	3. edit config.properties by modify the relevant path of tools or database
 ~~~	
 
-## Run
+## Run:
 
 	java -jar PredDBR.jar [input] [input] [input] [input]
 	
@@ -39,7 +38,10 @@
 	b.the path of prediction result: "{Folder path to save the process files and result file}/PredDBR_Prod".
 	
 	c. give an example:
-		java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543 
+		java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
+## Update History:
+
+- First release 2020-12-28
 
 ## References 
 [1] Jun Hu, Yan-Song Bai, Lin-Lin Zheng, Ning-Xin Jia, Dong-Jun Yu, Gui-Jun Zhang. Protein-DNA Binding Residue Prediction via Bagging Strategy and Sequence-based Cube-Format Feature. submitted
