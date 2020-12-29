@@ -8,7 +8,7 @@
    - NCBI nr database (https://ftp.ncbi.nlm.nih.gov/blast/db/FASTA/)
    - Uniclust30 database (http://wwwuser.gwdg.de/~compbiol/uniclust/)
    
-## installation:
+## Installation:
 
 *Download PredDBR package
 ~~~
@@ -30,7 +30,7 @@
 	
        a. you should input four parameters: Protein_name, Protein_sequence, Folder path to save the process files and result file, training set;
        
-	     the forth parameter is a fixed parameters : "PDNA-543" or "PDNA-335"; "PDNA-543" represents the models constrcuted on dataset PDNA-543,
+	      the forth parameter is a fixed parameters : "PDNA-543" or "PDNA-335"; "PDNA-543" represents the models constrcuted on dataset PDNA-543,
 	 
 	     "PDNA-335" represents the models constrcuted on dataset PDNA-335
 	 
