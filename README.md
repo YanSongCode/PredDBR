@@ -1,5 +1,5 @@
 # PredDBR:
- Protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature feature.
+ Protein-DNA binding residues prediction via bagging strategy and Sequence-based Cube-Format Feature.
 	
 ## Pre-requisite:
    - Python, Java, Pytorch
