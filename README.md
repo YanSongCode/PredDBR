@@ -11,7 +11,7 @@
 ## Installation:
 
 *Download this repository PredDBR at https://github.com/YanSongCode/PredDBR/archive/PredDBR.zip first.
- Then, uncompress it and run the following command lines on linux System.
+ Then, run the following command lines on linux System.
 ~~~
  1. unzip  -n PredDBR.zip -d ./
  2. cd PredDBR-PredDBRR
@@ -54,8 +54,8 @@ Note that "xx" represent the absolute path of relevant database or tool.
 	      "PDNA-335" represents the models constrcuted on dataset PDNA-335
 
        b. give an example: java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
-
-The outputted probability of belonging to the class of DNA-binding and non-binding of query sequences could be found at "./result/PredDBR_Prod"
+       
+       c. The outputted probability of belonging to the class of DNA-binding and non-binding of query sequences could be found at "./result/PredDBR_Prod"
    
 ## Update History:
 
