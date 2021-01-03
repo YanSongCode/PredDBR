@@ -23,7 +23,7 @@
  8. edit "config.properties" by modify the relevant path of tools or database
 ~~~	
 *The file of "config.properties" should be set as follows:
-
+~~~
 SANN_RUNNER_PATH=xx/SANN/sann/bin/sann.sh
 BLASTPGP_DB_PATH=xx/nr
 PSIPRED321_FOLDER_DIR=xx/psipred321/
@@ -34,6 +34,7 @@ BLASTPGP_EXE_PATH=./tools/blast-2.2.26/blastpgp
 BLAST_BIN_DIR=./tools/blast-2.2.26/
 BLASTPGP_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
 PYTHON=xx/anaconda3/bin/python
+~~~
 
 ## Run:
 
