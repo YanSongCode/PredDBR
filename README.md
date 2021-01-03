@@ -28,14 +28,14 @@ SANN_RUNNER_PATH=xx/SANN/sann/bin/sann.sh
 BLASTPGP_DB_PATH=xx/nr
 PSIPRED321_FOLDER_DIR=xx/psipred321/
 HHBLITS_EXE_PATH=xx/hhblits
-HHBLITS_DB_PATH=xx/uniclust30_2018_08_hhsuite/uniclust30_2018_08/uniclust30_2018_08
+HHBLITS_DB_PATH=xx/uniclust30_2018_08
 SITESEA_DB_FOLDER=xx/SiteSea
 BLASTPGP_EXE_PATH=./tools/blast-2.2.26/blastpgp
 BLAST_BIN_DIR=./tools/blast-2.2.26/
 BLASTPGP_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
 PYTHON=xx/anaconda3/bin/python
 ~~~
-Note that "xx" represent the absolute path of relevant database and programer.
+Note that "xx" represent the absolute path of relevant database or tool.
 ## Run:
 
 	java -jar PredDBR.jar [input] [input] [input] [input]
@@ -55,7 +55,7 @@ Note that "xx" represent the absolute path of relevant database and programer.
 
        b. give an example: java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
 
-The outputted probability of belonging to the class of DNA-binding of query sequences could be found at "./result/PredDBR_Prod"
+The outputted probability of belonging to the class of DNA-binding and non-binding of query sequences could be found at "./result/PredDBR_Prod"
    
 ## Update History:
 
