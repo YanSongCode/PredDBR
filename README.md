@@ -24,16 +24,16 @@
 ~~~	
 *The file of "config.properties" should be set as follows:
 
-  SANN_RUNNER_PATH=xx/SANN/sann/bin/sann.sh
-  BLASTPGP_DB_PATH=xx/nr
-  PSIPRED321_FOLDER_DIR=xx/psipred321/
-  HHBLITS_EXE_PATH=xx/hhblits
-  HHBLITS_DB_PATH=xx/uniclust30_2018_08_hhsuite/uniclust30_2018_08/uniclust30_2018_08
-  SITESEA_DB_FOLDER=xx/SiteSea
-  BLASTPGP_EXE_PATH=./tools/blast-2.2.26/blastpgp
-  BLAST_BIN_DIR=./tools/blast-2.2.26/
-  BLASTPGP_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
-  PYTHON=xx/anaconda3/bin/python
+SANN_RUNNER_PATH=xx/SANN/sann/bin/sann.sh
+BLASTPGP_DB_PATH=xx/nr
+PSIPRED321_FOLDER_DIR=xx/psipred321/
+HHBLITS_EXE_PATH=xx/hhblits
+HHBLITS_DB_PATH=xx/uniclust30_2018_08_hhsuite/uniclust30_2018_08/uniclust30_2018_08
+SITESEA_DB_FOLDER=xx/SiteSea
+BLASTPGP_EXE_PATH=./tools/blast-2.2.26/blastpgp
+BLAST_BIN_DIR=./tools/blast-2.2.26/
+BLASTPGP_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
+PYTHON=xx/anaconda3/bin/python
 
 ## Run:
 
