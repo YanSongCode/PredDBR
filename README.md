@@ -33,7 +33,6 @@
   BLASTPGP_EXE_PATH=./tools/blast-2.2.26/blastpgp
   BLAST_BIN_DIR=./tools/blast-2.2.26/
   BLASTPGP_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
-  #the environment of pytorch
   PYTHON=xx/anaconda3/bin/python
 
 ## Run:
