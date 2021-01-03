@@ -10,8 +10,8 @@
    
 ## Installation:
 
-*Download this repository PredDBR at https://github.com/YanSongCode/PredDBR.git or https://github.com/YanSongCode/PredDBR/archive/PredDBR.zip first.
- Then, uncompress it and run it and run the following command lines on linux System.
+*Download this repository PredDBR at https://github.com/YanSongCode/PredDBR/archive/PredDBR.zip first.
+ Then, uncompress it and run the following command lines on linux System.
 ~~~
  1. unzip  -n PredDBR.zip -d ./
  2. cd PredDBR-PredDBRR
@@ -35,7 +35,7 @@ BLAST_BIN_DIR=./tools/blast-2.2.26/
 BLASTPGP_OUTPUT_PARSER_DIR=./tools/junh_BlastpgpSSITEOutputPARSER
 PYTHON=xx/anaconda3/bin/python
 ~~~
-
+Note that "xx" represent the absolute path of relevant database and programer.
 ## Run:
 
 	java -jar PredDBR.jar [input] [input] [input] [input]
@@ -52,10 +52,10 @@ PYTHON=xx/anaconda3/bin/python
 	      the forth parameter is a fixed parameters : "PDNA-543" or "PDNA-335"; "PDNA-543" represents the models constrcuted on dataset PDNA-543,
 	 
 	      "PDNA-335" represents the models constrcuted on dataset PDNA-335
-	 
-       b. the path of prediction result: "{Folder path to save the process files and result file}/PredDBR_Prod".
 
-       c. give an example: java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
+       b. give an example: java -jar PredDBR.jar 1A02_F RRIRRERNKMAAAKSRNRRRELTDTLQAETDQLEDEKSALQTEIANLLKEKEK ./result  PDNA-543
+
+The outputted probability of belonging to the class of DNA-binding of query sequences could be found at "./result/PredDBR_Prod"
    
 ## Update History:
 
